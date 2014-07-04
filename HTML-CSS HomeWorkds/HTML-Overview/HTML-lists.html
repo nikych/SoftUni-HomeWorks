@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Problem 4</title>
+    <meta charset="utf-8"/>
+    <style>
+        ol{
+            list-style-type:upper-roman;
+        }
+        ol li ol{
+            padding-left:20px;
+        }
+        ol li ul.pad{
+            padding-left:15px;
+        }
+            ol li ol li{
+                list-style-type: lower-latin;
+            }
+        ol li ul li {
+            list-style-type:disc;
+        }
+        .decimal{
+            list-style-type:decimal;
+        }
+        ol li ol li ul li{
+            list-style-type:circle;
+        }
+        ol li ol li ul li ul li {
+            list-style-type:square;
+        }
+    </style>
+</head>
+<body>
+    <p>Preceding Text</p>
+    <ol>
+        <li>
+            List Item 1
+            <ol>
+                <li>Nested Item 1.1</li>
+                <li>Nested Item 1.2</li>
+            </ol>
+        </li>
+        <li>
+            List Item 2
+            <ol>
+                <li class="decimal">Nested Item 2.1</li>
+                <li class="decimal">
+                    Nested Item 2.2
+                    <ul>
+                        <li>Nested Item 2.2.1</li>
+                        <li>
+                            Nested Item 2.2.2
+                            <ul>
+                                <li>Nested Item 2.2.2.1</li>
+                                <li>Nested Item 2.2.2.2</li>
+                            </ul>
+                        </li>
+                        <li>Nested Item 2.2.3</li>
+                    </ul>
+                </li>
+                <li class="decimal">Nested Item 2.3</li>
+            </ol>
+        </li>
+        <li>
+            List Item 3
+            <ul class="pad">
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.1</li>
+                <li>Nested Item 3.1</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>

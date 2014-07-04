@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fakebook</title>
+	<link rel="stylesheet" href="css/fakebook.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<span id="fakebook_logo">fakebook</span>&reg;
+			<h1>Registration</h1>
+			<h3>It is safe and it will always be!</h3>
+		</div>
+		<div class="info">
+			<form action="" method="POST" style="height:100%;">
+				<table>
+					<tr>
+						<td>
+							<div class="info_divs">
+								<div id="header_none_imp_info">
+									None-Important Information
+								</div>
+								<table>
+									<tr>
+										<td>
+											<input type="text" placeholder="First Name">
+										</td>
+										<td>
+											<input type="text" placeholder="Last Name">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="email" placeholder="Your Email">
+										</td>
+										<td>
+											<input type="tel" 
+											placeholder="Phone Number"
+											pattern="\+[0-9]">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="password" placeholder="Your Password">
+										</td>
+										<td>
+											<input type="url" placeholder="Website">
+										</td>
+									</tr>
+								</table>
+								<table>
+									<tr>
+										<td colspan="3">
+											<label for="birthday">
+												Birthday
+											</label>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="3">
+											<input type="date" id="birthday" value="05/09/2014">
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<label>
+												<input type="radio" name="gender" value="Felame">Felame
+											</label>
+										</td>
+										<td>
+											<label>
+												<input type="radio" name="gender" value="Male">Male
+											</label>
+										</td>
+										<td>
+											<label>
+												<input type="radio" name="gender" value="Other">Other
+											</label>
+										</td>
+									</tr>
+								</table>
+							</div>
+						<td>
+					</tr>
+					<tr>
+						<td>
+							<input type="reset" value="Clear Form" id="clear_btn">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+		<div class="info">
+			<form action="" method="POST">
+				<table  id="register_table">
+					<tr>
+						<td>
+							<div class="info_divs">
+								<div id="header_imp_info">
+									Important Information *required
+								</div>
+								<table>
+									<tr>
+										<td>
+											<select name="country" id="country_select" required>
+												<option value="default">Country</option>
+												<option value="BG">Bulgaria</option>
+												<option value="UK">United Kingdom</option>
+												<option value="FR">France</option>
+												<option value="SP">Spain</option>
+												<option value="GR">Germany</option>
+												<option value="RU">Russia</option>
+												<option value="US">Unated States</option>
+											</select>
+										</td>
+										<td>
+											<input type="text" placeholder="Village" required>
+										</td>
+										<td>
+											<input type="text" placeholder="District" required>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="text" placeholder="Street" required>
+										</td>
+										<td colspan="2">
+											<input type="address" placeholder="Nr" class="address_info" required>
+											<input type="address" placeholder="Floor" class="address_info" required>
+											<input type="address" placeholder="Ap Nr" class="address_info" required>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											Door Color
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<input type="color" value="#ff80c0" required>
+										</td>
+										<td>
+											<input type="text" placeholder="Water Meter Nr" required>
+										</td>
+										<td>
+											<select name="aunt_pants_size" id="aunt_pants_size" required>
+												<option value="default">Aunt Panties' Size</option>
+												<option value="s">S</option>
+												<option value="m">M</option>
+												<option value="l">L</option>
+												<option value="xl">XL</option>
+												<option value="xxl">XXL</option>
+												<option value="xxxl">XXXL</option>
+												<option value="xxxxl">XXXXL</option>
+											</select>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="3">
+											More Personal Information
+										</td>
+									</tr>
+									<tr>
+										<td colspan="3">
+											<textarea name="user_info" id="user_info" placeholder="Give Us More Information!!!" required></textarea>
+										</td>
+									</tr>
+								</table>	
+							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="submit" value="Register"  id="register_btn">
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

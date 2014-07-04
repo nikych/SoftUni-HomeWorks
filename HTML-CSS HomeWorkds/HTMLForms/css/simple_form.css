@@ -1,0 +1,114 @@
+body {
+	background: #eeeeee;
+}
+table {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+}
+
+h3 {
+	text-align: left;
+	text-transform: uppercase;
+}
+
+#wrapper {
+	margin: auto;
+	width: 900px;
+	height: 440px;
+	color: #a6a6a6;
+	font-family: times;				/* some fancy font */
+	padding: 1px 10px 10px 10px;
+}
+
+.text_inputs {
+	width: 400px;
+	height: 25px;
+	padding: 5px;
+	margin: 5px;
+	color: #c7c7c7;
+}
+
+#form_header, #register, #submit {
+	color: #234465;
+}
+
+#register_btn {
+	width: 200px;
+	height: 50px;
+	border: solid #546d86 2px;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #0a2f54;
+}
+
+#register_btn:hover {
+	background: #234465;
+	color: #eeeeee;
+}
+
+#submit_td {
+	text-align: right;
+}
+
+#loging_th {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#register_table_div {
+	margin-top: 20px;
+}
+
+
+#register_table {
+	width: 400px;
+	float: left;
+}
+
+#login_table {
+	height: 309px;
+	background: #234465;
+	color: white;
+	float: left;
+	margin-left: 50px;
+	padding: 10px;
+}
+
+#login_submit_td {
+	width: 400px;
+}
+#remember_me {
+	font-size: 12px;
+	float: left;
+}
+
+#login_btn {
+	float: right;
+}
+
+#login_submit_btn {
+	width: 200px;
+	height: 50px;
+	background: transparent;
+	color: white;
+	border: solid #dd8f0f 2px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+#login_submit_btn:hover {
+	background: #eeeeee;
+	color: #234465;
+}
+
+#forgot_password {
+	text-decoration: underline;
+	color: white;
+	float: right;
+	font-size: 17px;
+}

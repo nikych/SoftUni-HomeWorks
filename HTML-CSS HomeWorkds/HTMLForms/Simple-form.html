@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/simple_form.css">
+	<title>Simple Form</title>
+</head>
+<body>
+	<div id="wrapper">
+		<h2 id="form_header">Enter the system</h2>
+		It is necessery to login in Your account in order to sign in for a course.
+		<div id="register_table_div">
+			<form action="" method="POST">
+				<table id="register_table">
+					<th>
+						<h3>
+							Are you new? <span id="register">Register</span>
+						</h3>
+					</th>
+					<tr>
+						<td>
+							<input type="text" placeholder="User name" class="text_inputs" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="email" placeholder="Email" class="text_inputs" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="password" placeholder="Password" class="text_inputs" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="password" placeholder="Conform Password" class="text_inputs" required>
+						</td>
+					</tr>
+					<tr>
+						<td id="submit_td">
+							<input type="submit" value="Register" id="register_btn">
+						</td>
+					</tr>
+				</table>
+			</form>
+			<form action="" method="POST">
+				<table id="login_table">
+					<th id="login_th">
+						<h3>
+							Already a student? Login
+						</h3>
+						<tr>
+							<td>
+								<input type="text" placeholder="User name" class="text_inputs" required>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="password" placeholder="Password" class="text_inputs" required>
+							</td>
+						</tr>
+						<tr>
+							<td id="login_submit_td">
+								<span id="remember_me">
+									<label>
+										<input type="checkbox" id="checkbox_rememberme">Remember me?
+									</label>
+								</span>
+								<span id="login_btn">
+									<input type="submit" value="Login" id="login_submit_btn">
+								</span>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<a href="#" id="forgot_password">Forgot Password</a>
+							</td>
+						</tr>
+					</th>
+				</table>
+			</form>
+		</div> <!-- End of register_table_div  -->
+	</div> <!-- End of wrapper div -->
+</body>
+</html>

@@ -1,0 +1,30 @@
+img{
+    width: 200px;
+    height: 200px;
+}
+
+table{
+    width: 422px;
+    border: solid 1px;
+}
+
+span{
+    font-size: 18px;
+}
+
+h1{
+    text-align: left;
+    margin: 0;
+}
+
+th{
+    vertical-align: top;
+    height: 60px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.padding-left-5{
+    padding-left: 10px;
+}
