@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Current Time</title>
+    <script src="scripts/03-CurrentTime.js" type="text/javascript"></script>
+    <style>
+        table, th,td {
+        border:1px solid black;
+        text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">
+                    World Time
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    GMT
+                </th>
+                <th>
+                    Sofia
+                </th>
+                <th>
+                    Tokyo
+                </th>
+                <th>
+                    Sao Paulo
+                </th>
+            </tr>
+            <tr>
+                <td id="gmt"></td>
+                <td id="sofia"></td>
+                <td id="tokyo"></td>
+                <td id="saopaulo"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        document.getElementById('gmt').innerHTML = convertTime(gmtime);
+        document.getElementById('sofia').innerHTML = convertTime(sofia);
+        document.getElementById('tokyo').innerHTML = tokyo;
+        document.getElementById('saopaulo').innerHTML = saoPaulo;
+    </script>
+</body>
+</html>
